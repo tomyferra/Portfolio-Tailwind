@@ -1,70 +1,29 @@
-# Getting Started with Create React App
+# Tomas Ferrari Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+https://tomasferrari.onrender.com
 
-## Available Scripts
+#
+Welcome to my portfolio! I'm a backend developer with a strong desire to become a full-stack developer. With 5 years of experience in backend development and 3 years in front-end development, I possess a wide range of skills and expertise.
 
-In the project directory, you can run:
+My backend skills include Python, Django, Flask and SQL. I have extensive experience in building scalable, robust, and efficient backend systems using Python. Additionally, my proficiency in SQL allows me to create and manage complex databases with ease.
 
-### `npm start`
+On the frontend, I have expertise in React, Tailwind, Git, Bootstrap, and Javascript. I have developed several web applications using these technologies, with a strong focus on user experience and functionality.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+I'm located in Buenos Aires, Argentina, and I'm always looking for new and exciting opportunities to expand my skill set and further my career. If you're interested in working together or want to learn more about my experience and skills, please feel free to contact me.
+#
+## Backend Development
+My backend skills include Python and SQL. I have extensive experience in building scalable, robust, and efficient backend systems using Python, Django and Flask. Additionally, my proficiency in SQL allows me to create and manage complex databases with ease.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Frontend Development
+On the front-end, I have expertise in React, Bootstrap, and Javascript. I have developed several web applications using these technologies, with a strong focus on user experience and functionality.
 
-### `npm test`
+## Location
+I'm located in Buenos Aires, Argentina, and I'm always looking for new and exciting opportunities to expand my skill set and further my career.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#
+## Contact details
+* Mail: ferra.tomy@gmail.com
+* Phone: +54 9 (11) 69002457
+* Portfolio: https://tomasferrari.onrender.com
+* Linkedin: https://www.linkedin.com/in/tomasmariaferrari/
+* Github: https://github.com/tomyferra
