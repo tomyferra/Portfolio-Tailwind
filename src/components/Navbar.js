@@ -15,11 +15,11 @@ function Navbar() {
       </h1>
       <ul className="hidden md:flex">
 
-        <li className="p-4"><a aria-current="page" href="#About">About</a></li>
-        <li className="p-4"><a aria-current="page" href="#Experience">Experience</a></li>
-        <li className="p-4"><a aria-current="page" href="#Apps">Apps</a></li>
-        <li className="p-4"><a aria-current="page" href="#Skills">Skills</a></li>
-        <li className="p-4"><a aria-current="page" href="#Contact">Contact</a></li>
+        <li className="p-4 hover:underline"><a aria-current="page" href="#About">About</a></li>
+        <li className="p-4 hover:underline"><a aria-current="page" href="#Experience">Experience</a></li>
+        <li className="p-4 hover:underline"><a aria-current="page" href="#Apps">Apps</a></li>
+        <li className="p-4 hover:underline"><a aria-current="page" href="#Skills">Skills</a></li>
+        <li className="p-4 hover:underline"><a aria-current="page" href="#Contact">Contact</a></li>
       </ul>
       <div className=" block md:hidden" onClick={handleNav}>
         {!nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
@@ -35,10 +35,10 @@ function Navbar() {
           Tomas Ferrari
         </h1>
         <ul className="pt-4">
-          <li className="p-4 border-b border-gray-600"><a onClick={handleNav} aria-current="page" href="#About">About</a></li>
-          <li className="p-4 border-b border-gray-600"><a onClick={handleNav} aria-current="page" href="#Experience">Experience</a></li>
-          <li className="p-4 border-b border-gray-600"><a onClick={handleNav} aria-current="page" href="#Apps">Apps</a></li>
-          <li className="p-4 border-b border-gray-600"><a onClick={handleNav} aria-current="page" href="#Skills">Skills</a></li>
+          <li className="p-4 hover:underline border-b border-gray-600"><a onClick={handleNav} aria-current="page" href="#About">About</a></li>
+          <li className="p-4 hover:underline border-b border-gray-600"><a onClick={handleNav} aria-current="page" href="#Experience">Experience</a></li>
+          <li className="p-4 hover:underline border-b border-gray-600"><a onClick={handleNav} aria-current="page" href="#Apps">Apps</a></li>
+          <li className="p-4 hover:underline border-b border-gray-600"><a onClick={handleNav} aria-current="page" href="#Skills">Skills</a></li>
           <li className="p-4"><a onClick={handleNav} aria-current="page" href="#Contact">Contact</a></li>
         </ul>
       </div>
