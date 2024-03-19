@@ -3,7 +3,7 @@ import { FaArrowRight } from "react-icons/fa";
 
 function Project({ name, sitepicture, summary, url, urlgithub }) {
   return (
-    <div class="max-w-sm borderborder-gray-200rounded-lg shadow bg-gray-800 border-gray-700">
+    <div class="max-w-sm border rounded-lg shadow bg-gray-800 border-gray-400">
       <img class="rounded-t-lg" src={sitepicture} alt="" />
       <div class="p-5">
         <h5 className="mb-2 text-2xl font-bold tracking-tight text-white">
