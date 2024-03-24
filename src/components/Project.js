@@ -1,7 +1,7 @@
 import React from "react";
 import { FaArrowRight } from "react-icons/fa";
 
-function Project({ name, sitepicture, summary, url, urlgithub }) {
+function Project({ name, sitepicture, summary, url, technologies }) {
   return (
     <div class="max-w-sm border rounded-lg shadow bg-gray-800 border-gray-400">
       <img class="rounded-t-lg" src={sitepicture} alt="" />
@@ -18,6 +18,11 @@ function Project({ name, sitepicture, summary, url, urlgithub }) {
           Go To Site
           <FaArrowRight className="mx-1"/>
         </a>
+      </div>
+      <div className="text-center items-center">
+        {technologies.map((tech) =>
+          <p className="inline-block rounded-full p-0.5 px-2 m-2 text-center bg-slate-500 text-[#00df9a]">{tech}</p>
+        )}
       </div>
     </div>
   );
