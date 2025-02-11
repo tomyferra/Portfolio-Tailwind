@@ -12,6 +12,18 @@ const WorkExperience = () => {
       <ol class="relative border-s border-gray-200 dark:border-gray-700">
         <li class="mb-10 ms-4">
             <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+            <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">November 2024</time>
+            <h3 class="mb-4 text-lg font-semibold text-white">Software Engineer at Athyna | Sparklight</h3>
+            <p class="mb-4 text-base font-normal text-gray-300">• Automate IP reservations using backend tools by creating a full stack web app with FastAPI and React.</p>
+            <p class="mb-4 text-base font-normal text-gray-300">• Modernize technologies written in PHP to have new codebase and created a FullStack application to interact.</p>
+            <p class="mb-4 text-base font-normal text-gray-300">• Utilize AI / ML to predict subnets utilization percentage. </p>
+            <div className='flex'>
+              <p class="mb-4 text-base font-normal text-gray-500 underline pr-2">Technologies: </p>
+              <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Python, OOP, FastAPI, GIT, AI, React, Javascript, Agile Methodologies, Unit tests</p>
+            </div>
+        </li>
+        <li class="mb-10 ms-4">
+            <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
             <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">December 2021</time>
             <h3 class="mb-4 text-lg font-semibold text-white">Software Engineer at JP Morgan Chase</h3>
             <p class="mb-4 text-base font-normal text-gray-300">• Developed and implemented automated scripts in Python using OOP to streamline financial reporting processes resulting in a reduction of financial incidents.</p>
