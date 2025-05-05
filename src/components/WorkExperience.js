@@ -16,10 +16,11 @@ const WorkExperience = () => {
             <h3 class="mb-4 text-lg font-semibold text-white">Software Engineer at Athyna | Sparklight</h3>
             <p class="mb-4 text-base font-normal text-gray-300">• Automate IP reservations using backend tools by creating a full stack web app with FastAPI and React.</p>
             <p class="mb-4 text-base font-normal text-gray-300">• Modernize technologies written in PHP to have new codebase and created a FullStack application to interact.</p>
-            <p class="mb-4 text-base font-normal text-gray-300">• Utilize AI / ML to predict subnets utilization percentage. </p>
+            <p class="mb-4 text-base font-normal text-gray-300">• Created webapp that allows network devices configuration templates to be created using Jinja2, FastAPI and React</p>
+            <p class="mb-4 text-base font-normal text-gray-300">• Deploy conteinerized applications to Openshift </p>
             <div className='flex'>
               <p class="mb-4 text-base font-normal text-gray-500 underline pr-2">Technologies: </p>
-              <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Python, OOP, FastAPI, GIT, AI, React, Javascript, Agile Methodologies, Unit tests</p>
+              <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Python, FastAPI, GIT, Docker, React, Javascript, Openshift, Agile Methodologies, Unit tests</p>
             </div>
         </li>
         <li class="mb-10 ms-4">
