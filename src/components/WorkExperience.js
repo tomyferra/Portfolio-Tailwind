@@ -9,67 +9,67 @@ const WorkExperience = () => {
       <MdWorkOutline className='mx-auto items-center' size={50} color='white' />
       <h1 className='text-[#00df9a] text-3xl text-center font-bold p-2 md:text-5xl sm:text-4xl md: py-6'>Work Experience</h1>
 
-      <ol class="relative border-s border-gray-200 dark:border-gray-700">
-        <li class="mb-10 ms-4">
-          <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-          <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">January 2025 - Present</time>
-          <h3 class="mb-4 text-lg font-semibold text-white">Founder & Full Stack Developer at EntreVinos</h3>
-          <p class="mb-4 text-base font-normal text-gray-300">• Architected a modern, responsive web application for wine enthusiasts using React, TypeScript, and Vite, featuring a robust social component for users to discover, rate, and follow others collections.</p>
-          <p class="mb-4 text-base font-normal text-gray-300">• Implemented client-side and server-side AI-powered image classification using TensorFlow.js (MobileNet) and Gemini AI to categorize wine labels and streamline the admin content moderation workflow.</p>
-          <p class="mb-4 text-base font-normal text-gray-300">• Built robust backend services utilizing Supabase, Postgres, and Node, encompassing automated email alerts, real-time user notifications, Google OAuth integration, and scheduled web scraping tasks.</p>
-          <p class="mb-4 text-base font-normal text-gray-300">• Designed an accessible and animated user interface leveraging Tailwind CSS, Shadcn UI, and Framer Motion, while managing complex state and data fetching with React Query.</p>
+      <ol className="relative border-s border-gray-200 dark:border-gray-700">
+        <li className="mb-10 ms-4">
+          <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+          <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">January 2025 - Present</time>
+          <h3 className="mb-4 text-lg font-semibold text-white">Founder & Full Stack Developer at EntreVinos</h3>
+          <p className="mb-4 text-base font-normal text-gray-300">• Architected a modern, responsive web application for wine enthusiasts using React, TypeScript, and Vite, featuring a robust social component for users to discover, rate, and follow others collections.</p>
+          <p className="mb-4 text-base font-normal text-gray-300">• Implemented client-side and server-side AI-powered image classification using TensorFlow.js (MobileNet) and Gemini AI to categorize wine labels and streamline the admin content moderation workflow.</p>
+          <p className="mb-4 text-base font-normal text-gray-300">• Built robust backend services utilizing Supabase, Postgres, and Node, encompassing automated email alerts, real-time user notifications, Google OAuth integration, and scheduled web scraping tasks.</p>
+          <p className="mb-4 text-base font-normal text-gray-300">• Designed an accessible and animated user interface leveraging Tailwind CSS, Shadcn UI, and Framer Motion, while managing complex state and data fetching with React Query.</p>
           <div className='flex'>
-            <p class="mb-4 text-base font-normal text-gray-500 underline pr-2">Technologies: </p>
-            <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">React, TypeScript, Node, Supabase, Postgres, TensorFlow.js, Gemini AI, TailwindCSS, Shadcn UI, React Query, Framer Motion, Git</p>
+            <p className="mb-4 text-base font-normal text-gray-500 underline pr-2">Technologies: </p>
+            <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">React, TypeScript, Node, Supabase, Postgres, TensorFlow.js, Gemini AI, TailwindCSS, Shadcn UI, React Query, Framer Motion, Git</p>
           </div>
         </li>
-        <li class="mb-10 ms-4">
-          <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-          <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">November 2024 - Present</time>
-          <h3 class="mb-4 text-lg font-semibold text-white">Software Engineer at Athyna | Sparklight</h3>
-          <p class="mb-4 text-base font-normal text-gray-300">• Automate IP reservations using backend tools by creating a full stack web app with FastAPI and React.</p>
-          <p class="mb-4 text-base font-normal text-gray-300">• Modernize technologies written in PHP to have new codebase and created a FullStack application to interact.</p>
-          <p class="mb-4 text-base font-normal text-gray-300">• Created webapp that allows network devices configuration templates to be created using Jinja2, FastAPI and React</p>
-          <p class="mb-4 text-base font-normal text-gray-300">• Deploy conteinerized applications to Openshift </p>
+        <li className="mb-10 ms-4">
+          <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+          <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">November 2024 - Present</time>
+          <h3 className="mb-4 text-lg font-semibold text-white">Software Engineer at Athyna | Sparklight</h3>
+          <p className="mb-4 text-base font-normal text-gray-300">• Automate IP reservations using backend tools by creating a full stack web app with FastAPI and React.</p>
+          <p className="mb-4 text-base font-normal text-gray-300">• Modernize technologies written in PHP to have new codebase and created a FullStack application to interact.</p>
+          <p className="mb-4 text-base font-normal text-gray-300">• Created webapp that allows network devices configuration templates to be created using Jinja2, FastAPI and React</p>
+          <p className="mb-4 text-base font-normal text-gray-300">• Deploy containerized applications to Openshift </p>
           <div className='flex'>
-            <p class="mb-4 text-base font-normal text-gray-500 underline pr-2">Technologies: </p>
-            <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Python, FastAPI, GIT, Docker, React, Javascript, Openshift, Agile Methodologies, Unit tests</p>
+            <p className="mb-4 text-base font-normal text-gray-500 underline pr-2">Technologies: </p>
+            <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Python, FastAPI, GIT, Docker, React, Javascript, Openshift, Agile Methodologies, Unit tests</p>
           </div>
         </li>
-        <li class="mb-10 ms-4">
-          <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-          <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">December 2021</time>
-          <h3 class="mb-4 text-lg font-semibold text-white">Software Engineer at JP Morgan Chase</h3>
-          <p class="mb-4 text-base font-normal text-gray-300">• Developed and implemented automated scripts in Python using OOP to streamline financial reporting processes resulting in a reduction of financial incidents.</p>
-          <p class="mb-4 text-base font-normal text-gray-300">• Led and successfully orchestrated the migration from RedisCache to the AMPS server, ensuring a seamless transition and optimized performance. Achieved a notable improvement in throughput by 25% and a reduction in incidents. Coded all necessary scripts and conducted thorough unit tests to guarantee system reliability and stability.</p>
-          <p class="mb-4 text-base font-normal text-gray-300">• Got certified as AWS Cloud Practitioner. </p>
-          <p class="mb-4 text-base font-normal text-gray-300">• As Scrum Master, I improved agile methodologies and scrum practices, resulting in a 40% increase in team productivity and throughput of deliverables.</p>
+        <li className="mb-10 ms-4">
+          <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+          <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">December 2021</time>
+          <h3 className="mb-4 text-lg font-semibold text-white">Software Engineer at JP Morgan Chase</h3>
+          <p className="mb-4 text-base font-normal text-gray-300">• Developed and implemented automated scripts in Python using OOP to streamline financial reporting processes resulting in a reduction of financial incidents.</p>
+          <p className="mb-4 text-base font-normal text-gray-300">• Led and successfully orchestrated the migration from RedisCache to the AMPS server, ensuring a seamless transition and optimized performance. Achieved a notable improvement in throughput by 25% and a reduction in incidents. Coded all necessary scripts and conducted thorough unit tests to guarantee system reliability and stability.</p>
+          <p className="mb-4 text-base font-normal text-gray-300">• Got certified as AWS Cloud Practitioner. </p>
+          <p className="mb-4 text-base font-normal text-gray-300">• As Scrum Master, I improved agile methodologies and scrum practices, resulting in a 40% increase in team productivity and throughput of deliverables.</p>
           <div className='flex'>
-            <p class="mb-4 text-base font-normal text-gray-500 underline pr-2">Technologies: </p>
-            <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Python, OOP, SQL, GIT, AWS, React, Javascript, Unit Testing, Agile Methodologies, Splunk, PowerBi, Tableau</p>
+            <p className="mb-4 text-base font-normal text-gray-500 underline pr-2">Technologies: </p>
+            <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Python, OOP, SQL, GIT, AWS, React, Javascript, Unit Testing, Agile Methodologies, Splunk, PowerBi, Tableau</p>
           </div>
         </li>
-        <li class="mb-10 ms-4">
-          <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-          <time class="mb-1 text-sm font-normal leading-none text-gray-400">December 2019</time>
-          <h3 class="mb-4 text-lg font-semibold text-white">Developer at ExxonMobil</h3>
-          <p class="mb-4 text-base font-normal text-gray-300 ">• Infrastructure, network and APM monitoring through Splunk, Appdynamics, Tableau and PowerBi. Automatic triggering actions to take effect if threshold are achieved.</p>
-          <p class="mb-4 text-base font-normal text-gray-300 ">• Developed an AI powered chatbot using NLP specifically designed to support incident managers in rapidly retrieving crucial information during ongoing incidents reducing Mean Time To Restore (MTTR) incidents.</p>
-          <p class="mb-4 text-base font-normal text-gray-300 ">• Developed Python – Flask backend API’s and React Frontend for web applications, ensuring seamless user experience and optimized performance simplifying the analysis of common root causes and enhancing the decision-making process.</p>
+        <li className="mb-10 ms-4">
+          <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+          <time className="mb-1 text-sm font-normal leading-none text-gray-400">December 2019</time>
+          <h3 className="mb-4 text-lg font-semibold text-white">Developer at ExxonMobil</h3>
+          <p className="mb-4 text-base font-normal text-gray-300 ">• Infrastructure, network and APM monitoring through Splunk, Appdynamics, Tableau and PowerBi. Automatic triggering actions to take effect if threshold are achieved.</p>
+          <p className="mb-4 text-base font-normal text-gray-300 ">• Developed an AI powered chatbot using NLP specifically designed to support incident managers in rapidly retrieving crucial information during ongoing incidents reducing Mean Time To Restore (MTTR) incidents.</p>
+          <p className="mb-4 text-base font-normal text-gray-300 ">• Developed Python – Flask backend API’s and React Frontend for web applications, ensuring seamless user experience and optimized performance simplifying the analysis of common root causes and enhancing the decision-making process.</p>
           <div className='flex'>
-            <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400 underline pr-2">Technologies: </p>
-            <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Python, Django, Flask, Splunk, PowerBi, Tableau, AppDynamics, React, Git, SQL, Azure, Agile, Unit Testing, OOP</p>
+            <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400 underline pr-2">Technologies: </p>
+            <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Python, Django, Flask, Splunk, PowerBi, Tableau, AppDynamics, React, Git, SQL, Azure, Agile, Unit Testing, OOP</p>
           </div>
         </li>
-        <li class="mb-4 ms-4">
-          <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-          <time class="mb-1 text-sm font-normal leading-none text-gray-400 ">June 2019</time>
-          <h3 class="mb-4 text-lg font-semibold text-white">RPA Bot Developer at Everis (NTT Data)</h3>
-          <p class="mb-4 text-base font-normal text-gray-300">• Establishing, testing, and overseeing automated workflows to guarantee optimal efficiency in business processes while mitigating the risk of errors.</p>
-          <p class="mb-4 text-base font-normal text-gray-300">• Got certified as a professional RPA Bot developer using Automation Anywhere tool.</p>
+        <li className="mb-4 ms-4">
+          <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+          <time className="mb-1 text-sm font-normal leading-none text-gray-400 ">June 2019</time>
+          <h3 className="mb-4 text-lg font-semibold text-white">RPA Bot Developer at Everis (NTT Data)</h3>
+          <p className="mb-4 text-base font-normal text-gray-300">• Establishing, testing, and overseeing automated workflows to guarantee optimal efficiency in business processes while mitigating the risk of errors.</p>
+          <p className="mb-4 text-base font-normal text-gray-300">• Got certified as a professional RPA Bot developer using Automation Anywhere tool.</p>
           <div className='flex'>
-            <p class="mb-4 text-base font-normal text-gray-500 underline pr-2">Technologies: </p>
-            <p class="mb-4 text-base font-normal text-gray-500">Automation Anywhere, RPA, C#, Infrastructure, Agile</p>
+            <p className="mb-4 text-base font-normal text-gray-500 underline pr-2">Technologies: </p>
+            <p className="mb-4 text-base font-normal text-gray-500">Automation Anywhere, RPA, C#, Infrastructure, Agile</p>
           </div>
         </li>
       </ol>

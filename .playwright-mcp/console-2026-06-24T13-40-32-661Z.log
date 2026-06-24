@@ -1,0 +1,22 @@
+[     904ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:3000/static/js/bundle.js:33471
+[     934ms] [ERROR] Warning: Invalid DOM property `%s`. Did you mean `%s`?%s class className 
+    at div
+    at li
+    at ol
+    at div
+    at WorkExperience
+    at div
+    at App @ http://localhost:3000/static/js/bundle.js:7831
+[     936ms] [ERROR] Warning: Each child in a list should have a unique "key" prop.%s%s See https://reactjs.org/link/warning-keys for more information.%s 
+
+Check the render method of `Project`.  
+    at p
+    at Project (http://localhost:3000/static/js/bundle.js:738:3)
+    at div
+    at div
+    at Projects
+    at div
+    at App @ http://localhost:3000/static/js/bundle.js:34289
+[  701899ms] [ERROR] WebSocket connection to 'ws://localhost:3000/ws' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/static/js/bundle.js:38373
+[  706299ms] [ERROR] WebSocket connection to 'ws://localhost:3000/ws' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/static/js/bundle.js:38373
+[  712664ms] [ERROR] WebSocket connection to 'ws://localhost:3000/ws' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/static/js/bundle.js:38373

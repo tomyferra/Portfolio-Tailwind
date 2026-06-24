@@ -9,10 +9,10 @@ function Projects() {
     <div id='Apps' className="grid grid-cols-1 justify-between items-center max-w-[1240px] mx-auto p-16 pt-24">
       <FaCode className='mx-auto items-center' size={50} color='white' />
       <h1 className='text-[#00df9a] text-3xl text-center font-bold p-4 mb-8 md:text-5xl sm:text-4xl'>Apps</h1>
-      <div className="grid sm:grid-cols-3 sm:gap-4 md:grid-cols-3 md:gap-4 gap-4 justify-items-center items-stretch">
+      <div className="grid sm:grid-cols-2 sm:gap-4 md:grid-cols-2 md:gap-4 gap-4 justify-items-center items-stretch">
         <Project
           name='EntreVinos'
-          Star="True"
+          isStar={true}
           sitepicture={EntreVinos}
           summary="A modern, responsive full-stack platform for wine enthusiasts to discover, rate, and manage collections. It features a robust social component for community recommendations, AI-powered image classification (TensorFlow.js & Gemini) to categorize labels and streamline admin moderation, and real-time backend services with Supabase. Users can log ratings, follow members, and explore a constantly updated global wine database."
           url='https://wineme-app.vercel.app/'
@@ -46,18 +46,7 @@ function Projects() {
             "Pydantic"
           ]}
         />
-        <Project
-          name='Trail Carb Tracker'
-          sitepicture={TrailCarbTracker}
-          summary="A full-stack web application designed to help endurance athletes track their carbohydrate intake during training and races. It provides a seamless interface for logging gels, chews, and drinks, calculating total carbs consumed, and monitoring daily goals. The app features a modern, responsive design with intuitive data visualization to support optimal sports nutrition strategies."
-          url='https://race-nutrition-tracker.vercel.app/'
-          technologies={[
-            "React",
-            "TypeScript",
-            "Tailwind CSS",
-            "Vercel"
-          ]}
-        />
+        
       </div>
     </div>
   )

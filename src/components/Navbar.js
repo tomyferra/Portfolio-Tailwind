@@ -2,10 +2,10 @@ import React, { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 
 function Navbar() {
-  const [nav, setNav] = useState(true);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
-  const handleNav = () => {
-    setNav(!nav);
+  const toggleMobileMenu = () => {
+    setIsMobileMenuOpen(!isMobileMenuOpen);
   };
 
   return (
@@ -15,18 +15,18 @@ function Navbar() {
       </h1>
       <ul className="hidden md:flex">
 
-        <li className="p-4 hover:underline"><a aria-current="page" href="#About">About</a></li>
-        <li className="p-4 hover:underline"><a aria-current="page" href="#Experience">Experience</a></li>
-        <li className="p-4 hover:underline"><a aria-current="page" href="#Apps">Apps</a></li>
-        <li className="p-4 hover:underline"><a aria-current="page" href="#Skills">Skills</a></li>
-        <li className="p-4 hover:underline"><a aria-current="page" href="#Contact">Contact</a></li>
+        <li className="p-4 hover:underline"><a href="#About">About</a></li>
+        <li className="p-4 hover:underline"><a href="#Experience">Experience</a></li>
+        <li className="p-4 hover:underline"><a href="#Apps">Apps</a></li>
+        <li className="p-4 hover:underline"><a href="#Skills">Skills</a></li>
+        <li className="p-4 hover:underline"><a href="#Contact">Contact</a></li>
       </ul>
-      <div className=" block md:hidden" onClick={handleNav}>
-        {!nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
+      <div className=" block md:hidden" onClick={toggleMobileMenu}>
+        {isMobileMenuOpen ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
       </div>
       <div
         className={
-          !nav
+          isMobileMenuOpen
             ? "fixed left-0 top-0 w-[50%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500"
             : "fixed left-[-100%]"
         }
@@ -35,11 +35,11 @@ function Navbar() {
           Tomas Ferrari
         </h1>
         <ul className="pt-4">
-          <li className="p-4 hover:underline border-b border-gray-600"><a onClick={handleNav} aria-current="page" href="#About">About</a></li>
-          <li className="p-4 hover:underline border-b border-gray-600"><a onClick={handleNav} aria-current="page" href="#Experience">Experience</a></li>
-          <li className="p-4 hover:underline border-b border-gray-600"><a onClick={handleNav} aria-current="page" href="#Apps">Apps</a></li>
-          <li className="p-4 hover:underline border-b border-gray-600"><a onClick={handleNav} aria-current="page" href="#Skills">Skills</a></li>
-          <li className="p-4"><a onClick={handleNav} aria-current="page" href="#Contact">Contact</a></li>
+          <li className="p-4 hover:underline border-b border-gray-600"><a onClick={toggleMobileMenu} href="#About">About</a></li>
+          <li className="p-4 hover:underline border-b border-gray-600"><a onClick={toggleMobileMenu} href="#Experience">Experience</a></li>
+          <li className="p-4 hover:underline border-b border-gray-600"><a onClick={toggleMobileMenu} href="#Apps">Apps</a></li>
+          <li className="p-4 hover:underline border-b border-gray-600"><a onClick={toggleMobileMenu} href="#Skills">Skills</a></li>
+          <li className="p-4"><a onClick={toggleMobileMenu} href="#Contact">Contact</a></li>
         </ul>
       </div>
     </div>

@@ -1,0 +1,184 @@
+- generic [ref=e3]:
+  - generic [ref=e4]:
+    - heading "TOMAS FERRARI" [level=1] [ref=e5]
+    - list [ref=e6]:
+      - listitem [ref=e7]:
+        - link "About" [ref=e8] [cursor=pointer]:
+          - /url: "#About"
+      - listitem [ref=e9]:
+        - link "Experience" [ref=e10] [cursor=pointer]:
+          - /url: "#Experience"
+      - listitem [ref=e11]:
+        - link "Apps" [ref=e12] [cursor=pointer]:
+          - /url: "#Apps"
+      - listitem [ref=e13]:
+        - link "Skills" [ref=e14] [cursor=pointer]:
+          - /url: "#Skills"
+      - listitem [ref=e15]:
+        - link "Contact" [ref=e16] [cursor=pointer]:
+          - /url: "#Contact"
+    - generic [ref=e17]:
+      - heading "Tomas Ferrari" [level=1] [ref=e18]
+      - list [ref=e19]:
+        - listitem [ref=e20]:
+          - link "About" [ref=e21] [cursor=pointer]:
+            - /url: "#About"
+        - listitem [ref=e22]:
+          - link "Experience" [ref=e23] [cursor=pointer]:
+            - /url: "#Experience"
+        - listitem [ref=e24]:
+          - link "Apps" [ref=e25] [cursor=pointer]:
+            - /url: "#Apps"
+        - listitem [ref=e26]:
+          - link "Skills" [ref=e27] [cursor=pointer]:
+            - /url: "#Skills"
+        - listitem [ref=e28]:
+          - link "Contact" [ref=e29] [cursor=pointer]:
+            - /url: "#Contact"
+  - generic [ref=e31]:
+    - heading "Software Developer" [level=1] [ref=e32]
+    - generic [ref=e34]: "|"
+    - paragraph [ref=e35]: I am an experienced backend developer with 7 years doing Python, SQL and Node, complemented by 5 years of front-end work in React, Tailwind and JavaScript. Aspiring to enchance my full-stack experience applying my backend and frontend stack of technologies.
+    - link "Download Resume" [ref=e37] [cursor=pointer]:
+      - /url: /static/media/Resume Tomas Ferrari.c333133f864aecf12f54.pdf
+      - text: Download Resume
+      - img [ref=e38]
+  - generic [ref=e41]:
+    - img [ref=e42]
+    - heading "Work Experience" [level=1] [ref=e45]
+    - list [ref=e46]:
+      - listitem [ref=e47]:
+        - time [ref=e49]: January 2025 - Present
+        - heading "Founder & Full Stack Developer at EntreVinos" [level=3] [ref=e50]
+        - paragraph [ref=e51]: • Architected a modern, responsive web application for wine enthusiasts using React, TypeScript, and Vite, featuring a robust social component for users to discover, rate, and follow others collections.
+        - paragraph [ref=e52]: • Implemented client-side and server-side AI-powered image classification using TensorFlow.js (MobileNet) and Gemini AI to categorize wine labels and streamline the admin content moderation workflow.
+        - paragraph [ref=e53]: • Built robust backend services utilizing Supabase, Postgres, and Node, encompassing automated email alerts, real-time user notifications, Google OAuth integration, and scheduled web scraping tasks.
+        - paragraph [ref=e54]: • Designed an accessible and animated user interface leveraging Tailwind CSS, Shadcn UI, and Framer Motion, while managing complex state and data fetching with React Query.
+        - generic [ref=e55]:
+          - paragraph [ref=e56]: "Technologies:"
+          - paragraph [ref=e57]: React, TypeScript, Node, Supabase, Postgres, TensorFlow.js, Gemini AI, TailwindCSS, Shadcn UI, React Query, Framer Motion, Git
+      - listitem [ref=e58]:
+        - time [ref=e60]: November 2024 - Present
+        - heading "Software Engineer at Athyna | Sparklight" [level=3] [ref=e61]
+        - paragraph [ref=e62]: • Automate IP reservations using backend tools by creating a full stack web app with FastAPI and React.
+        - paragraph [ref=e63]: • Modernize technologies written in PHP to have new codebase and created a FullStack application to interact.
+        - paragraph [ref=e64]: • Created webapp that allows network devices configuration templates to be created using Jinja2, FastAPI and React
+        - paragraph [ref=e65]: • Deploy conteinerized applications to Openshift
+        - generic [ref=e66]:
+          - paragraph [ref=e67]: "Technologies:"
+          - paragraph [ref=e68]: Python, FastAPI, GIT, Docker, React, Javascript, Openshift, Agile Methodologies, Unit tests
+      - listitem [ref=e69]:
+        - time [ref=e71]: December 2021
+        - heading "Software Engineer at JP Morgan Chase" [level=3] [ref=e72]
+        - paragraph [ref=e73]: • Developed and implemented automated scripts in Python using OOP to streamline financial reporting processes resulting in a reduction of financial incidents.
+        - paragraph [ref=e74]: • Led and successfully orchestrated the migration from RedisCache to the AMPS server, ensuring a seamless transition and optimized performance. Achieved a notable improvement in throughput by 25% and a reduction in incidents. Coded all necessary scripts and conducted thorough unit tests to guarantee system reliability and stability.
+        - paragraph [ref=e75]: • Got certified as AWS Cloud Practitioner.
+        - paragraph [ref=e76]: • As Scrum Master, I improved agile methodologies and scrum practices, resulting in a 40% increase in team productivity and throughput of deliverables.
+        - generic [ref=e77]:
+          - paragraph [ref=e78]: "Technologies:"
+          - paragraph [ref=e79]: Python, OOP, SQL, GIT, AWS, React, Javascript, Unit Testing, Agile Methodologies, Splunk, PowerBi, Tableau
+      - listitem [ref=e80]:
+        - time [ref=e82]: December 2019
+        - heading "Developer at ExxonMobil" [level=3] [ref=e83]
+        - paragraph [ref=e84]: • Infrastructure, network and APM monitoring through Splunk, Appdynamics, Tableau and PowerBi. Automatic triggering actions to take effect if threshold are achieved.
+        - paragraph [ref=e85]: • Developed an AI powered chatbot using NLP specifically designed to support incident managers in rapidly retrieving crucial information during ongoing incidents reducing Mean Time To Restore (MTTR) incidents.
+        - paragraph [ref=e86]: • Developed Python – Flask backend API’s and React Frontend for web applications, ensuring seamless user experience and optimized performance simplifying the analysis of common root causes and enhancing the decision-making process.
+        - generic [ref=e87]:
+          - paragraph [ref=e88]: "Technologies:"
+          - paragraph [ref=e89]: Python, Django, Flask, Splunk, PowerBi, Tableau, AppDynamics, React, Git, SQL, Azure, Agile, Unit Testing, OOP
+      - listitem [ref=e90]:
+        - time [ref=e92]: June 2019
+        - heading "RPA Bot Developer at Everis (NTT Data)" [level=3] [ref=e93]
+        - paragraph [ref=e94]: • Establishing, testing, and overseeing automated workflows to guarantee optimal efficiency in business processes while mitigating the risk of errors.
+        - paragraph [ref=e95]: • Got certified as a professional RPA Bot developer using Automation Anywhere tool.
+        - generic [ref=e96]:
+          - paragraph [ref=e97]: "Technologies:"
+          - paragraph [ref=e98]: Automation Anywhere, RPA, C#, Infrastructure, Agile
+  - generic [ref=e99]:
+    - img [ref=e100]
+    - heading "Apps" [level=1] [ref=e102]
+    - generic [ref=e103]:
+      - generic [ref=e104]:
+        - generic [ref=e105]:
+          - heading "EntreVinos" [level=5] [ref=e106]:
+            - text: EntreVinos
+            - img [ref=e107]
+          - paragraph [ref=e113]: A modern, responsive full-stack platform for wine enthusiasts to discover, rate, and manage collections. It features a robust social component for community recommendations, AI-powered image classification (TensorFlow.js & Gemini) to categorize labels and streamline admin moderation, and real-time backend services with Supabase. Users can log ratings, follow members, and explore a constantly updated global wine database.
+          - link "Go To Site" [ref=e114] [cursor=pointer]:
+            - /url: https://wineme-app.vercel.app/
+            - text: Go To Site
+            - img [ref=e115]
+        - generic [ref=e117]:
+          - paragraph [ref=e118]: React
+          - paragraph [ref=e119]: TypeScript
+          - paragraph [ref=e120]: Tailwind CSS
+          - paragraph [ref=e121]: Node.js
+          - paragraph [ref=e122]: Supabase
+          - paragraph [ref=e123]: PostgreSQL
+          - paragraph [ref=e124]: TensorFlow.js
+          - paragraph [ref=e125]: Gemini AI
+          - paragraph [ref=e126]: React Query
+      - generic [ref=e127]:
+        - generic [ref=e128]:
+          - heading "LLM.txt Generator" [level=5] [ref=e129]
+          - paragraph [ref=e130]: "Full-stack web app (URL2LLM.txt Converter) that converts any webpage URL into a clean, downloadable `.txt` file optimized for LLM consumption. This LLM format is powered by Gemini AI using model gemini-3-flash-preview"
+          - link "Go To Site" [ref=e131] [cursor=pointer]:
+            - /url: https://url2llmtxt-frontend.onrender.com/
+            - text: Go To Site
+            - img [ref=e132]
+        - generic [ref=e134]:
+          - paragraph [ref=e135]: React
+          - paragraph [ref=e136]: TypeScript
+          - paragraph [ref=e137]: Tailwind CSS
+          - paragraph [ref=e138]: FastAPI
+          - paragraph [ref=e139]: Uvicorn
+          - paragraph [ref=e140]: Supabase S3 Bucket
+          - paragraph [ref=e141]: Playwright
+          - paragraph [ref=e142]: Gemini AI
+          - paragraph [ref=e143]: Pytest
+          - paragraph [ref=e144]: Pydantic
+      - generic [ref=e145]:
+        - generic [ref=e146]:
+          - heading "Trail Carb Tracker" [level=5] [ref=e147]
+          - paragraph [ref=e148]: A full-stack web application designed to help endurance athletes track their carbohydrate intake during training and races. It provides a seamless interface for logging gels, chews, and drinks, calculating total carbs consumed, and monitoring daily goals. The app features a modern, responsive design with intuitive data visualization to support optimal sports nutrition strategies.
+          - link "Go To Site" [ref=e149] [cursor=pointer]:
+            - /url: https://race-nutrition-tracker.vercel.app/
+            - text: Go To Site
+            - img [ref=e150]
+        - generic [ref=e152]:
+          - paragraph [ref=e153]: React
+          - paragraph [ref=e154]: TypeScript
+          - paragraph [ref=e155]: Tailwind CSS
+          - paragraph [ref=e156]: Vercel
+  - generic [ref=e157]:
+    - img [ref=e158]
+    - heading "Skills" [level=1] [ref=e160]
+    - generic [ref=e161]:
+      - img "Logo for React" [ref=e162]
+      - img "Logo for Git" [ref=e163]
+      - img "Logo for JS" [ref=e164]
+      - img "Logo for Bootstrap" [ref=e165]
+      - img "Logo for HTML" [ref=e166]
+      - img "Logo for CSS" [ref=e167]
+      - img "Logo for Tailwind" [ref=e168]
+      - img "Logo for MongoDB" [ref=e169]
+      - img "Logo for Postman" [ref=e170]
+      - img "Logo for Python" [ref=e171]
+      - img "Logo for Tableu" [ref=e172]
+      - img "Logo for PowerBI" [ref=e173]
+      - img "Logo for AWS" [ref=e174]
+      - img "Logo for ChatGPT" [ref=e175]
+  - generic [ref=e176]:
+    - link [ref=e178] [cursor=pointer]:
+      - /url: https://www.linkedin.com/in/tomasmariaferrari/
+      - img [ref=e179]
+    - link [ref=e188] [cursor=pointer]:
+      - /url: mailto:ferra.tomy@gmail.com
+      - img [ref=e189]
+    - link [ref=e193] [cursor=pointer]:
+      - /url: https://wa.me/5491169002457
+      - img [ref=e194]
+    - link [ref=e197] [cursor=pointer]:
+      - /url: https://github.com/tomyferra
+      - img [ref=e198]
+  - paragraph [ref=e200]: Developed by Tomas Ferrari
