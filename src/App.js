@@ -15,7 +15,7 @@ function App() {
       <Projects />
       <Skills />
       <Footer />
-      <p className=' text-gray-300 text-center pb-4'>Developed by Tomas Ferrari</p>
+      <p className=' text-ink/60 text-center pb-4'>Developed by Tomas Ferrari</p>
     </div>
   );
 }

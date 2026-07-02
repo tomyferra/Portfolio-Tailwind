@@ -27,3 +27,17 @@ I'm located in Buenos Aires, Argentina, and I'm always looking for new and excit
 * Portfolio: https://tomasferrari.onrender.com
 * Linkedin: https://www.linkedin.com/in/tomasmariaferrari/
 * Github: https://github.com/tomyferra
+
+## View Counter Setup
+
+The Footer shows a live view count powered by [CounterAPI.dev](https://counterapi.dev)
+(free tier). To enable it:
+
+1. Create a free account and workspace at https://counterapi.dev.
+2. Copy `.env.example` to `.env.local`.
+3. Set `REACT_APP_COUNTER_WORKSPACE` and `REACT_APP_COUNTER_NAME` to your
+   workspace/counter slugs.
+4. Restart `npm start` (CRA only reads `.env*` files at startup).
+
+If these are unset, or the request fails, the counter simply doesn't render
+— no error is shown.
