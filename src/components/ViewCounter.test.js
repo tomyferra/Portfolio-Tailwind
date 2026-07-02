@@ -28,6 +28,7 @@ test('renders the count on a successful fetch', async () => {
 test('renders nothing when the fetch fails', async () => {
   global.fetch.mockRejectedValueOnce(new Error('network error'));
   const { container } = render(<ViewCounter />);
+  await waitFor(() => expect(global.fetch).toHaveBeenCalled());
   await waitFor(() => expect(container).toBeEmptyDOMElement());
 });
 
