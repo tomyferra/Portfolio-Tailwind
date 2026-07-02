@@ -1,0 +1,25 @@
+# Tomas Ferrari
+
+Full-Stack Software Developer based in Buenos Aires, Argentina.
+
+## Summary
+7 years of backend experience (Python, Django, FastAPI, SQL) and 5 years of
+frontend experience (React, Tailwind CSS, JavaScript). Currently Founder &
+Full Stack Developer at EntreVinos and Software Engineer at Athyna |
+Sparklight. Previously Software Engineer at JP Morgan Chase and ExxonMobil.
+
+## Skills
+Python, Django, Flask, FastAPI, SQL, React, TypeScript, Tailwind CSS,
+Node.js, AWS, Docker, Git, Agile methodologies.
+
+## Projects
+- EntreVinos (https://wineme-app.vercel.app/): full-stack wine discovery
+  and rating platform with AI-powered image classification.
+- LLM.txt Generator (https://url2llmtxt-frontend.onrender.com/): converts
+  any webpage URL into a clean .txt file optimized for LLM consumption.
+
+## Contact
+Email: ferra.tomy@gmail.com
+LinkedIn: https://www.linkedin.com/in/tomasmariaferrari/
+GitHub: https://github.com/tomyferra
+Portfolio: https://tomasferrari.onrender.com/
