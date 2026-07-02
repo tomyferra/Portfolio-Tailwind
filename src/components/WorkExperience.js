@@ -66,8 +66,8 @@ const WorkExperience = () => {
       <ol className="relative border-s border-line">
         {entries.map((entry, i) => (
           <li key={entry.title} className="mb-10 ms-4 p-4 border border-transparent hover:border-line hover:-translate-y-0.5 hover:shadow-[3px_3px_0_#b5451b] transition-transform">
+            <div className="absolute w-3 h-3 bg-rust rounded-full mt-1.5 -start-1.5 border border-paper"></div>
             <FadeUp delay={i * 80}>
-              <div className="absolute w-3 h-3 bg-rust rounded-full mt-1.5 -start-1.5 border border-paper"></div>
               <time className="mb-1 text-sm font-mono leading-none text-ink/60">{entry.date}</time>
               <h3 className="mb-4 text-lg font-semibold text-ink">{entry.title}</h3>
               {entry.bullets.map((bullet) => (
