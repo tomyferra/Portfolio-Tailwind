@@ -59,7 +59,7 @@ const entries = [
 
 const WorkExperience = () => {
   return (
-    <div id='Experience' className="bg-paper grid grid-cols-1 justify-between items-center max-w-[1240px] mx-auto px-7 mt-4 py-16">
+    <div id='Experience' className="bg-paper grid grid-cols-1 justify-between items-center max-w-[1240px] mx-auto px-7 mt-4 py-16 scroll-mt-20">
       <MdWorkOutline className='mx-auto items-center' size={50} color='#141414' />
       <h2 className='text-ink text-3xl text-center font-bold p-2 md:text-5xl sm:text-4xl md:py-6'>Work Experience</h2>
 

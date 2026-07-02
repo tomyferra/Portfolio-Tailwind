@@ -13,7 +13,6 @@ import TailwindLogo from '../images/TailwindLogo.webp'
 import MongoDBLogo from '../images/MongoDb.webp'
 import PostmanLogo from '../images/PostmanLogo.webp'
 import AWSLogo from '../images/awsLogo.webp'
-import ChatGPT from '../images/ChatGPT.webp'
 
 function Skills() {
   return (
@@ -34,7 +33,6 @@ function Skills() {
         <img className='w-20 mx-auto hover:scale-105 hover:shadow-[3px_3px_0_#b5451b] transition-transform' src={tableauLogo} alt="Logo for Tableu" />
         <img className='w-20 mx-auto hover:scale-105 hover:shadow-[3px_3px_0_#b5451b] transition-transform' src={powerBiLogo} alt="Logo for PowerBI" />
         <img className='w-20 mx-auto hover:scale-105 hover:shadow-[3px_3px_0_#b5451b] transition-transform' src={AWSLogo} alt="Logo for AWS" />
-        <img className='w-20 mx-auto hover:scale-105 hover:shadow-[3px_3px_0_#b5451b] transition-transform' src={ChatGPT} alt="Logo for ChatGPT" />
       </div>
 
 

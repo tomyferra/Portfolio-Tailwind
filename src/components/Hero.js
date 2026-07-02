@@ -6,7 +6,7 @@ import FadeUp from './FadeUp';
 
 const Hero = () => {
   return (
-    <div id='About' className='text-ink bg-paper relative'>
+    <div id='About' className='text-ink bg-paper relative scroll-mt-20'>
       <div
         className="bg-dot-grid absolute inset-0"
         style={{

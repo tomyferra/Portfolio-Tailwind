@@ -9,7 +9,7 @@ function Navbar() {
   };
 
   return (
-    <div className="flex justify-between items-center h-20 max-w-[1240px] mx-auto px-4 text-ink bg-paper sticky top-0 z-10 border-b border-line">
+    <div className="flex justify-between items-center h-20 max-w-[1240px] mx-auto px-4 text-ink bg-paper sticky top-0 z-20 border-b border-line">
       <p className="w-full text-3xl font-bold text-ink m-4">
         TOMAS FERRARI
       </p>
