@@ -24,3 +24,6 @@ howToRun.txt
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+.claude/
+.playwright-mcp/
