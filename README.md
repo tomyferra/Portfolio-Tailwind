@@ -34,12 +34,10 @@ The Footer shows a live view count powered by [CounterAPI.dev](https://counterap
 (free tier). To enable it:
 
 1. Create a free account and workspace at https://counterapi.dev.
-2. Copy `.env.example` to `.env.local`.
-3. Set `REACT_APP_COUNTER_WORKSPACE` and `REACT_APP_COUNTER_NAME` to your
+2. Update `COUNTER_API_BASE` in `src/components/ViewCounter.js` with your
    workspace/counter slugs.
-4. Optionally set `REACT_APP_COUNTER_API_KEY` to your CounterAPI key if your
-   workspace requires authenticated requests.
-5. Restart `npm start` (CRA only reads `.env*` files at startup).
 
-If these are unset, or the request fails, the counter simply doesn't render
-— no error is shown.
+The counter is incremented anonymously via CounterAPI's public `up` endpoint
+— no API key is sent from the browser, since CounterAPI's CORS policy
+rejects preflighted requests carrying an `Authorization` header. If the
+request fails, the counter simply doesn't render — no error is shown.

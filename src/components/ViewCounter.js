@@ -11,11 +11,7 @@ const ViewCounter = () => {
     if (hasFetched.current) return;
     hasFetched.current = true;
 
-    const apiKey = process.env.REACT_APP_COUNTER_API_KEY;
-
-    fetch(`${COUNTER_API_BASE}/up`, {
-      headers: apiKey ? { Authorization: `Bearer ${apiKey}` } : undefined,
-    })
+    fetch(`${COUNTER_API_BASE}/up`)
       .then((res) => {
         if (!res.ok) throw new Error('counter request failed');
         return res.json();
