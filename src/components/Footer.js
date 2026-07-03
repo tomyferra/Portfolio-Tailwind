@@ -3,7 +3,6 @@ import { MdOutlineMail } from "react-icons/md";
 import { CiLinkedin } from "react-icons/ci";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-import ViewCounter from './ViewCounter';
 
 function Footer() {
   return (
@@ -28,7 +27,7 @@ function Footer() {
           <FaGithub className='mx-auto items-center' size={35} />
         </a>
       </div>
-      <ViewCounter />
+      
     </div>
   )
 }

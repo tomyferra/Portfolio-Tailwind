@@ -1,10 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 
-const COUNTER_API_BASE = 'https://api.counterapi.dev/v1';
-
-export function buildCounterUrl(workspace, name) {
-  return `${COUNTER_API_BASE}/${workspace}/${name}/up`;
-}
+const COUNTER_API_BASE = 'https://api.counterapi.dev/v2/tomas-ferraris-team-4660/first-counter-4660';
 
 const ViewCounter = () => {
   const [count, setCount] = useState(null);
@@ -15,22 +11,18 @@ const ViewCounter = () => {
     if (hasFetched.current) return;
     hasFetched.current = true;
 
-    const workspace = process.env.REACT_APP_COUNTER_WORKSPACE;
-    const name = process.env.REACT_APP_COUNTER_NAME;
+    const apiKey = process.env.REACT_APP_COUNTER_API_KEY;
 
-    if (!workspace || !name) {
-      setFailed(true);
-      return;
-    }
-
-    fetch(buildCounterUrl(workspace, name))
+    fetch(`${COUNTER_API_BASE}/up`, {
+      headers: apiKey ? { Authorization: `Bearer ${apiKey}` } : undefined,
+    })
       .then((res) => {
         if (!res.ok) throw new Error('counter request failed');
         return res.json();
       })
       .then((data) => {
-        if (typeof data.count === 'number') {
-          setCount(data.count);
+        if (typeof data?.data?.up_count === 'number') {
+          setCount(data.data.up_count);
         } else {
           setFailed(true);
         }
@@ -41,9 +33,13 @@ const ViewCounter = () => {
   if (failed || count === null) return null;
 
   return (
-    <div className="col-span-2 md:col-span-4 flex justify-center items-center text-ink text-xs font-mono gap-1 pt-2">
-      <span role="img" aria-label="eye">👁</span>
-      <span>{count.toLocaleString()} views</span>
+    <div className="col-span-2 md:col-span-4 text-center font-mono pt-2">
+      <div className="font-serif font-black mb-2 text-5xl leading-none text-ink border-b-[3px] border-rust pb-1.5 inline-block">
+        {count.toLocaleString()}
+      </div>
+      <div className="text-[10px] tracking-[4px] uppercase text-ink/50 mb-2 ">
+        Site visits
+      </div>
     </div>
   );
 };
